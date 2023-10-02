@@ -3,3 +3,73 @@ h2,
 h3 {
   font-family: BootsFont;
 }
+header img {
+  position: relative;
+}
+div h2 {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+  font-size: 2rem;
+}
+header div ul {
+  position: absolute;
+  top: 30px;
+  left: 320px;
+}
+header div ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 2rem;
+}
+div ul li a {
+  text-decoration: none;
+  color: rgb(253, 250, 246);
+  font-family: BootsFont;
+  background-color: black;
+  border-radius: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body main div ul {
+  font-size: 30px;
+  display: block;
+  border: 10px;
+  padding: 10px;
+  margin: 15px;
+}
+.baba {
+  scale: 1.2;
+  position: absolute;
+  top: 400px;
+  left: 1135px;
+}
+.Card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: inline-block;
+  position: relative;
+}
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.Card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: inline-block;
+  position: relative;
+}
+.Card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+  font-size: 20px;
+}
+.review {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
